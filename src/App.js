@@ -21,7 +21,7 @@ function App() {
     const newMember = {
       id: Date.now(),
       name: member.name,
-      email: member.body,
+      email: member.email,
       role: member.role
     };
     setMembers([...members, newMember])
